@@ -6,16 +6,16 @@ class MeasurementForm(forms.ModelForm):
         model = Measurement
         fields = [
             'variable',
-            'value',
-            'unit',
-            'place',
+            'color',
+            'talla',
+            'ubicacion',
             #'dateTime',
         ]
 
         labels = {
-            'variable' : 'Variable',
-            'value' : 'Value',
-            'unit' : 'Unit',
-            'place' : 'Place',
+            'variable' : 'Producto',
+            'color' : 'Color',
+            'talla' : 'Talla',
+            'ubicacion' : 'Ubicacion',
             #'dateTime' : 'Date Time',
         }
