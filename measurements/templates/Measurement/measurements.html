@@ -26,10 +26,10 @@
                     <table class="table table-hover">
                         <thead>
                         <tr style="color:#0E2EB0">
-                            <th font color="red">Aspecto</th>
+                            <th font color="red">Variable</th>
                             <th>Producto</th>
-                            <th>Color</th>
                             <th>Talla</th>
+                            <th>Color</th>
                             <th>Ubicacion</th>
                         </tr>
                         </thead>
@@ -38,9 +38,9 @@
                         {% for measurement in measurement_list %}
                         <tr>
                             <td>{{ measurement.variable.name }}</td>
-                            <td>{{ measurement.value }}</td>
-                            <td>{{ measurement.color }}</td>
+                            <td>{{ measurement.producto }}</td>
                             <td>{{ measurement.talla }}</td>
+                            <td>{{ measurement.color }}</td>
                             <td>{{ measurement.ubicacion }}</td>
                         </tr>
                         {% endfor %}
