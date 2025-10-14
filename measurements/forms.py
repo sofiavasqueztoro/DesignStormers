@@ -6,6 +6,7 @@ class MeasurementForm(forms.ModelForm):
         model = Measurement
         fields = [
             'variable',
+            'producto',
             'color',
             'talla',
             'ubicacion',
