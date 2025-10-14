@@ -13,7 +13,8 @@ class MeasurementForm(forms.ModelForm):
         ]
 
         labels = {
-            'variable' : 'Producto',
+            'variable' : 'Variable',
+            'producto' : 'Producto',
             'color' : 'Color',
             'talla' : 'Talla',
             'ubicacion' : 'Ubicacion',
