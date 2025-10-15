@@ -9,8 +9,7 @@ class MeasurementForm(forms.ModelForm):
             'producto',
             'color',
             'talla',
-            'ubicacion',
-            #'dateTime',
+            'ubicacion'
         ]
 
         labels = {
@@ -18,6 +17,5 @@ class MeasurementForm(forms.ModelForm):
             'producto' : 'Producto',
             'color' : 'Color',
             'talla' : 'Talla',
-            'ubicacion' : 'Ubicacion',
-            #'dateTime' : 'Date Time',
+            'ubicacion' : 'Ubicacion'
         }
